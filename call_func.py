@@ -1,4 +1,5 @@
-
+import sqlalchemy as db
+from sqlalchemy import engine,create_engine
 
 def export_data():
     
@@ -24,3 +25,9 @@ def export_data():
     finally:
         mydb.close()
         print('now closed')
+
+def export_data2(comp_list):
+    print(comp_list.head())
+    engine = create_engine("mysql://root:1234@localhost/stock_store",echo = True)
+    with engine.connect() as conn:
+        comp_list.to_sql('company_list',con=conn,index=False,if_exists='append')
