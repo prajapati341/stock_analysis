@@ -11,3 +11,105 @@ INFO:sqlalchemy.engine.Engine:[generated in 0.00136s] {'table_schema': 'stock_st
 INFO:sqlalchemy.engine.Engine:INSERT INTO company_list (`Sr_NO`, `Symbol`, `Company Name`, `Market_capitalization`) VALUES (%(Sr_NO)s, %(Symbol)s, %(Company_Name)s, %(Market_capitalization)s)
 INFO:sqlalchemy.engine.Engine:[generated in 0.01220s] ({'Sr_NO': 1, 'Symbol': 'RELIANCE', 'Company_Name': 'Reliance Industries Limited', 'Market_capitalization': 172329584.148608}, {'Sr_NO': 2, 'Symbol': 'TCS', 'Company_Name': 'Tata Consultancy Services Limited', 'Market_capitalization': 119164326.06449099}, {'Sr_NO': 3, 'Symbol': 'HDFCBANK', 'Company_Name': 'HDFC Bank Limited', 'Market_capitalization': 90797942.979974}, {'Sr_NO': 4, 'Symbol': 'INFY', 'Company_Name': 'Infosys Limited', 'Market_capitalization': 63466275.27412599}, {'Sr_NO': 5, 'Symbol': 'ICICIBANK', 'Company_Name': 'ICICI Bank Limited', 'Market_capitalization': 62149392.6978855}, {'Sr_NO': 6, 'Symbol': 'HINDUNILVR', 'Company_Name': 'Hindustan Unilever Limited', 'Market_capitalization': 60174207.015451}, {'Sr_NO': 7, 'Symbol': 'SBIN', 'Company_Name': 'State Bank of India', 'Market_capitalization': 54770342.211558}, {'Sr_NO': 8, 'Symbol': 'HDFC', 'Company_Name': 'Housing Development Finance Corporation Limited', 'Market_capitalization': 48044948.218848}  ... displaying 10 of 2113 total bound parameter sets ...  {'Sr_NO': 2112, 'Symbol': 'WSI', 'Company_Name': 'W S Industries (I) Limited', 'Market_capitalization': '* Not Traded as on December 30, 2022'}, {'Sr_NO': 2113, 'Symbol': 'ZICOM', 'Company_Name': 'Zicom Electronic Security Systems Limited', 'Market_capitalization': '* Not Traded as on December 30, 2022'})
 INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:root:Log message connected
+WARNING:root:warning message connected
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00306s] {'table_schema': 'stock_store', 'table_name': 'company_list'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO company_list (`Sr_NO`, `Symbol`, `Company Name`, `Market_capitalization`) VALUES (%(Sr_NO)s, %(Symbol)s, %(Company_Name)s, %(Market_capitalization)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.01188s] ({'Sr_NO': 1, 'Symbol': 'RELIANCE', 'Company_Name': 'Reliance Industries Limited', 'Market_capitalization': 172329584.148608}, {'Sr_NO': 2, 'Symbol': 'TCS', 'Company_Name': 'Tata Consultancy Services Limited', 'Market_capitalization': 119164326.06449099}, {'Sr_NO': 3, 'Symbol': 'HDFCBANK', 'Company_Name': 'HDFC Bank Limited', 'Market_capitalization': 90797942.979974}, {'Sr_NO': 4, 'Symbol': 'INFY', 'Company_Name': 'Infosys Limited', 'Market_capitalization': 63466275.27412599}, {'Sr_NO': 5, 'Symbol': 'ICICIBANK', 'Company_Name': 'ICICI Bank Limited', 'Market_capitalization': 62149392.6978855}, {'Sr_NO': 6, 'Symbol': 'HINDUNILVR', 'Company_Name': 'Hindustan Unilever Limited', 'Market_capitalization': 60174207.015451}, {'Sr_NO': 7, 'Symbol': 'SBIN', 'Company_Name': 'State Bank of India', 'Market_capitalization': 54770342.211558}, {'Sr_NO': 8, 'Symbol': 'HDFC', 'Company_Name': 'Housing Development Finance Corporation Limited', 'Market_capitalization': 48044948.218848}  ... displaying 10 of 2113 total bound parameter sets ...  {'Sr_NO': 2112, 'Symbol': 'WSI', 'Company_Name': 'W S Industries (I) Limited', 'Market_capitalization': '* Not Traded as on December 30, 2022'}, {'Sr_NO': 2113, 'Symbol': 'ZICOM', 'Company_Name': 'Zicom Electronic Security Systems Limited', 'Market_capitalization': '* Not Traded as on December 30, 2022'})
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:root:Log message connected
+WARNING:root:warning message connected
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00128s] {'table_schema': 'stock_store', 'table_name': 'company_list'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO company_list (`Sr_NO`, `Symbol`, `Company Name`, `Market_capitalization`) VALUES (%(Sr_NO)s, %(Symbol)s, %(Company_Name)s, %(Market_capitalization)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.01259s] ({'Sr_NO': 1, 'Symbol': 'RELIANCE', 'Company_Name': 'Reliance Industries Limited', 'Market_capitalization': 172329584.148608}, {'Sr_NO': 2, 'Symbol': 'TCS', 'Company_Name': 'Tata Consultancy Services Limited', 'Market_capitalization': 119164326.06449099}, {'Sr_NO': 3, 'Symbol': 'HDFCBANK', 'Company_Name': 'HDFC Bank Limited', 'Market_capitalization': 90797942.979974}, {'Sr_NO': 4, 'Symbol': 'INFY', 'Company_Name': 'Infosys Limited', 'Market_capitalization': 63466275.27412599}, {'Sr_NO': 5, 'Symbol': 'ICICIBANK', 'Company_Name': 'ICICI Bank Limited', 'Market_capitalization': 62149392.6978855}, {'Sr_NO': 6, 'Symbol': 'HINDUNILVR', 'Company_Name': 'Hindustan Unilever Limited', 'Market_capitalization': 60174207.015451}, {'Sr_NO': 7, 'Symbol': 'SBIN', 'Company_Name': 'State Bank of India', 'Market_capitalization': 54770342.211558}, {'Sr_NO': 8, 'Symbol': 'HDFC', 'Company_Name': 'Housing Development Finance Corporation Limited', 'Market_capitalization': 48044948.218848}  ... displaying 10 of 2113 total bound parameter sets ...  {'Sr_NO': 2112, 'Symbol': 'WSI', 'Company_Name': 'W S Industries (I) Limited', 'Market_capitalization': '* Not Traded as on December 30, 2022'}, {'Sr_NO': 2113, 'Symbol': 'ZICOM', 'Company_Name': 'Zicom Electronic Security Systems Limited', 'Market_capitalization': '* Not Traded as on December 30, 2022'})
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00140s] {'table_schema': 'stock_store', 'table_name': 'stock_data2'}
+INFO:sqlalchemy.engine.Engine:
+CREATE TABLE stock_data2 (
+	`Datetime` DATETIME, 
+	`Open` FLOAT, 
+	`High` FLOAT, 
+	`Low` FLOAT, 
+	`Close` FLOAT, 
+	`Adj Close` FLOAT, 
+	`Volume` INTEGER, 
+	`Company` VARCHAR(20), 
+	`Sector` VARCHAR(20)
+)
+
+
+INFO:sqlalchemy.engine.Engine:[no key 0.00117s] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00322s] {'table_schema': 'stock_store', 'table_name': 'stock_data3'}
+INFO:sqlalchemy.engine.Engine:
+CREATE TABLE stock_data3 (
+	`Datetime` DATETIME, 
+	`Open` FLOAT, 
+	`High` FLOAT, 
+	`Low` FLOAT, 
+	`Close` FLOAT, 
+	`Adj Close` FLOAT, 
+	`Volume` INTEGER, 
+	`Company` VARCHAR(20), 
+	`Sector` VARCHAR(20)
+)
+
+
+INFO:sqlalchemy.engine.Engine:[no key 0.00413s] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00159s] {'table_schema': 'stock_store', 'table_name': 'table_1'}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00151s] {'table_schema': 'stock_store', 'table_name': 'table_1'}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:INSERT INTO table_1 (column_1) VALUES (%(column_1)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00247s] {'column_1': 'Ravi'}
+INFO:sqlalchemy.engine.Engine:ROLLBACK
+INFO:sqlalchemy.engine.Engine:INSERT INTO table_1 (column_1) VALUES (%(column_1)s)
+INFO:sqlalchemy.engine.Engine:[cached since 9.616s ago] {'column_1': '13134'}
+INFO:sqlalchemy.engine.Engine:COMMIT
