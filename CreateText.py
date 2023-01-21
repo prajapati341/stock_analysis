@@ -1,3 +1,9 @@
+
+# with open('guru99.txt', 'a') as the_file:
+#     the_file.write('Hello world \n')
+#     print('hello world')
+
+
 import logging 
 import pandas as pd
 import json
